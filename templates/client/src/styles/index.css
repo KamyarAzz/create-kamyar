@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Theme tokens: use them as bg-ground, text-ink, border-line, bg-brand, … */
+@theme {
+  --color-ground: #f4f5f2;
+  --color-surface: #ffffff;
+  --color-line: #e3e5e0;
+  --color-ink: #15181a;
+  --color-muted: #5b6168;
+  --color-brand: #0e6b4e;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-ground font-sans text-ink antialiased;
+}

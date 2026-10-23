@@ -1,0 +1,31 @@
+{
+  "name": "create-kamyar",
+  "version": "0.1.0",
+  "description": "Scaffold a React + Vite + Tailwind project with my folder structure and tooling",
+  "license": "MIT",
+  "author": "Kamyar Azizi",
+  "type": "module",
+  "bin": {
+    "create-kamyar": "index.js"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "create",
+    "scaffold",
+    "template",
+    "react",
+    "vite",
+    "tailwind"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "picocolors": "^1.1.1"
+  }
+}
